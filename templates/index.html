@@ -7,12 +7,16 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css" />
+    
 
     <title>Document</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur perferendis, voluptatibus consequuntur maxime qui sit molestiae corrupti soluta labore asperiores inventore officiis beatae iure omnis distinctio nihil esse similique! Inventore!
-    </p>
+    <h1>Vice Versa</h1>
+    <form action="{% url 'reverse' %}">
+        <textarea   cols="50" rows="10" name="usertext"></textarea>
+        <br><br>
+        <input type="submit" value="Reverse!">
+    </form>
 </body>
 </html>
