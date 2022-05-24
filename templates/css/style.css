@@ -74,16 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-header {
-  background-color: red;
-  width: 1200px;
-  margin: 200px;
-}
-
 p {
-  color: white;
-}
-
-p:hover {
-  color: yellow;
+  background-color: #615B6E;
+  color: #832727;
 }
